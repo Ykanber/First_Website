@@ -1,0 +1,202 @@
+body{
+ font-family:Sans serif,Helvetica,Arial;
+}	
+	#background {
+	    position: fixed;
+	    top:0px;
+	    left: 0px;
+	    width: 100%;
+	    height: 100%;
+	    background-image: url(Images/Background.png);
+	    opacity:0.85;
+	    }
+ .header{ 
+	    position:relative;	
+	    top:0%;
+	    left:25%;
+	    width:60%;
+ }
+
+	nav ul li {
+	    display: inline;
+	    line-height: 90px;
+	    text-transform: uppercase;
+	    margin-right: 5%;
+		} 
+
+	nav ul li a {
+	    color: red;
+	    font-size: 30px;
+	}
+ 
+.Paragraph{
+    text-align:center;
+    color: black;
+    padding: 0px;
+    width: 47%;
+    left: 23%;
+    height: 100%;
+    position:relative;
+    font-size: 24px;
+    color:darkkhaki;
+    }
+.Paragraph1{
+    text-align:center;
+    margin:3% 0% 0% 22.5%;
+    color: black;
+    width: 47%;
+    height: 100%;
+    position:relative;
+    font-size: 24px;
+    color:Darkkhaki;
+    }
+
+
+.rightblock{
+     text-align:left;
+     margin:9% 0% 0% 0%;
+     color:black;
+     position:fixed;
+     font-size:30px;
+     float:right;
+     top: 0%;
+     left:73%;
+     width:500px;	
+     
+}
+.rightblock h1{
+   color:red;
+   font-size:40px;
+ }
+ a:link,a:visited{
+  text-decoration:none;
+  color: red;
+  
+ }
+ a:hover{
+   text-decoration:underline;
+   color:#e3d608;
+ }
+ .table{
+  border: 1px solid black;
+  width:100%;
+ 
+ }
+ .table1{
+ border:1px solid white;
+  font-size:25px;
+  width:270px;
+ 
+ }
+ .table2{
+  border:1px solid white;
+  width:140px;
+ }
+ .table3{
+  font-size:25px;
+  text-align:center;
+ }
+ .table4{
+  position:absolute; 
+  width:21%;
+  color:sienna;
+  border:1px solid white;
+  top:150%;
+ }
+ .table5{
+  border:1px solid white;
+  font-size:22px;
+  width:300px;
+  height:10px;
+ }
+ .table6{
+   border:1px solid white;
+  width:140px;
+ }
+ 
+ #button{
+    position: fixed;
+    bottom:0%;
+    right:0%;
+    Background-color:#FC7070;
+    cursor:pointer; 
+    }
+#button:hover{
+    background-color:#FE1B1B;
+    
+
+}
+#button:active{
+    background-color:#FE1B1B;
+    transform: translateY(4px);
+}	
+ 
+ .button1{
+    position:fixed;
+    left:0;
+    background-image:url(Images/sonhali2.png);
+    top:73%;
+    height:56px;
+    cursor:pointer;
+    width:22%;
+    border:2px solid #848066;
+ }
+ .button2{
+    position:fixed;
+    left:0;
+    background-image:url(Images/sonhali2.png);
+    top:80%;
+    height:56px;
+    cursor:pointer;
+    width:22%;
+    border:2px solid #848066;
+ }
+ .button3{
+    position:fixed;
+    left:0;
+    top:87%;
+    background-image:url(Images/sonhali2.png);
+    cursor:pointer;
+    width:22%;
+    height:56px;
+    border:2px solid #848066;
+ }
+ #buttons a{
+    text-align:center;
+    color:#60480A;
+    font-size:30px;
+    padding-top:10px;
+ }
+ #buttons a:hover{
+    color:black;
+    text-decoration:none;
+ }
+ .logo{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:22%;
+    height:100%;
+    background-color:white;
+    float:left;
+   
+    }
+  .gameplaylogo{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:22%;
+    height:73%;
+    background-color:white;
+    float:left;
+    }
+ .awardslogo{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:22%;
+    height:100%;
+    background-color:white;
+    float:left;
+   
+    }
